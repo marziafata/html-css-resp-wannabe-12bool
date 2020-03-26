@@ -7,8 +7,6 @@
 .container {
     max-width: 1170px;
     margin: 0 auto;
-
-    /* padding non da tenere, solo per esercizio wannabe */
 }
 
 .container::after {
