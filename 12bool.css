@@ -7,6 +7,8 @@
 .container {
     max-width: 1170px;
     margin: 0 auto;
+
+    /* padding non da tenere, solo per esercizio wannabe */
 }
 
 .container::after {
@@ -18,6 +20,24 @@
 [class*="col-"] {
     float: left;
 }
+
+/* regole solo per caso specifico esercizio */
+
+.box {
+    padding: 20px;
+}
+
+.row {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 120px;
+}
+/* fine regole solo per caso specifico esercizio. al massimo posso tenere img max width 100% height auto */
+
 
 /* cellulare */
 
